@@ -14,8 +14,8 @@ function Login({ LoginPlayer, playerName, setPlayerName }) {
       >
         <h1 className="text-lg sm:text-4xl font-bold text-[#8892b0]">
           <TypeMe
-            typingSpeed={100}
-            deleteSpeed={100}
+            typingSpeed={200}
+            deleteSpeed={200}
             strings={[
               "  Welcome to Cloud9 Event.",
               <Delete characters={6} />,

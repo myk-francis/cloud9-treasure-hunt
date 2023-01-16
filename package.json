@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/myk-francis/cloud9-treasure-hunt",
-  "name": "treasure-hunt",
+  "homepage": "https://myk-francis.github.io/cloud9-treasure-hunt",
+  "name": "cloud9-treasure-hunt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
