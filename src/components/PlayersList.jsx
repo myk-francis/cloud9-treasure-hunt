@@ -33,15 +33,17 @@ function PlayersList({ players }) {
     let winners_query = `*[_type == 'game']`;
 
     await client.fetch(winners_query).then((data) => {
-      setWinners(
-        data[0].winners
-          .sort(function (a, b) {
-            // Turn your strings into dates, and then subtract them
-            // to get a value that is either negative, positive, or zero.
-            return new Date(b.completedAt) - new Date(a.completedAt);
-          })
-          .reverse()
-      );
+      if (data && data[0].winners) {
+        setWinners(
+          data[0].winners
+            .sort(function (a, b) {
+              // Turn your strings into dates, and then subtract them
+              // to get a value that is either negative, positive, or zero.
+              return new Date(b.completedAt) - new Date(a.completedAt);
+            })
+            .reverse()
+        );
+      }
     });
   };
 

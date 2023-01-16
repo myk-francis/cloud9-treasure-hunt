@@ -3,7 +3,7 @@ import React from "react";
 function Navbar({ background, showPlayers, setShowPlayers }) {
   return (
     <div
-      className={`fixed w-full h-[80px] flex justify-between items-center px-4 ${background}`}
+      className={`fixed w-screen h-[80px] flex justify-between items-center px-4 ${background}`}
     >
       <span className="px-10 font-extrabold text-pink-700 md:text-4xl sm:text-1xl">
         Cloud9
