@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cloud9-treasure-hunt/static/css/main.e14762e7.css",
-    "main.js": "/cloud9-treasure-hunt/static/js/main.4d5ef507.js",
+    "main.css": "/cloud9-treasure-hunt/static/css/main.daa3dc4d.css",
+    "main.js": "/cloud9-treasure-hunt/static/js/main.a23c150d.js",
     "index.html": "/cloud9-treasure-hunt/index.html",
-    "main.e14762e7.css.map": "/cloud9-treasure-hunt/static/css/main.e14762e7.css.map",
-    "main.4d5ef507.js.map": "/cloud9-treasure-hunt/static/js/main.4d5ef507.js.map"
+    "main.daa3dc4d.css.map": "/cloud9-treasure-hunt/static/css/main.daa3dc4d.css.map",
+    "main.a23c150d.js.map": "/cloud9-treasure-hunt/static/js/main.a23c150d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e14762e7.css",
-    "static/js/main.4d5ef507.js"
+    "static/css/main.daa3dc4d.css",
+    "static/js/main.a23c150d.js"
   ]
 }
