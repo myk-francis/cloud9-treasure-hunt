@@ -38,7 +38,8 @@ function StageOne({
         {solved === true ? (
           <>
             <p>
-              Here's Your Code: <span className="text-pink-700">mike1</span>
+              Here's Your Code:{" "}
+              <span className="text-pink-700">cloudnineevent</span>
             </p>
             <input
               type="text"
