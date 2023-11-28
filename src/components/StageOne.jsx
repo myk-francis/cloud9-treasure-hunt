@@ -13,7 +13,7 @@ function StageOne({
   const [puzzle, setPuzzle] = React.useState("");
 
   const SolvePuzzle = () => {
-    if (puzzle.trim().toLowerCase() === "cloud9 treasure hunt") {
+    if (puzzle.trim().toLowerCase() === "mbalamwezi treasure hunt") {
       setSolved(true);
     } else {
       toast.warning("Close, Try again");
@@ -33,13 +33,13 @@ function StageOne({
         </p>
 
         <p className="text-black font-bold text-lg sm:text-2xl">
-          CLO_ _9 T_ _ A_U_E H_ _T
+          MB_LA_WE_I T_ _ A_U_E H_ _T
         </p>
         {solved === true ? (
           <>
             <p>
               Here's Your Code:{" "}
-              <span className="text-pink-700">cloudnineevent</span>
+              <span className="text-pink-700">mbalamwezievent</span>
             </p>
             <input
               type="text"

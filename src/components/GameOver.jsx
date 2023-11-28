@@ -85,7 +85,7 @@ function GameOver({ playerName }) {
           <h1 className="underline text-black text-lg cursor-pointer">
             Winners List
           </h1>
-          <ul className="list-disc">
+          <ul className="list-disc ">
             {winners?.map((winner, index) => (
               <li
                 className={`${
